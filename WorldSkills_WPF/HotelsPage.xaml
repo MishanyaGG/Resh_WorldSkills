@@ -1,0 +1,26 @@
+﻿<Page x:Class="WorldSkills_WPF.HotelsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WorldSkills_WPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Страница 1">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Content="Страница 1" Margin="10" HorizontalAlignment="Center" Click="Page_1"></Button>
+        <Button Grid.Row="1" Content="Страница 2" Margin="10" HorizontalAlignment="Center" Click="Page_2" ></Button>
+        <Button Grid.Row="2" Content="Страница 3" Margin="10" HorizontalAlignment="Center" Click="Page_3" ></Button>
+        <Button Grid.Row="3" Content="Страница 4" Margin="10" HorizontalAlignment="Center" Click="Page_4" ></Button>
+        <Button Grid.Row="4" Content="Страница 5" Margin="10" HorizontalAlignment="Center" Click="Page_5" ></Button>
+        <Button Grid.Row="5" Content="Страница 6" Margin="10" HorizontalAlignment="Center" Click="Page_6" ></Button>
+    </Grid>
+</Page>
